@@ -20,7 +20,7 @@ namespace WebParser.Converters
             if (!(input is string))
                 throw new Exception("Input value have to be string");
 
-            if (string.IsNullOrEmpty((string)input))
+            if (string.IsNullOrEmpty(Format))
                 return DateTime.Parse((string)input);
             else
                 return DateTime.ParseExact((string)input, Format, null);
