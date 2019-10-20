@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Text.RegularExpressions;
-using WebParser.Converters.Abstract;
+using WebsiteParser.Converters.Abstract;
 
-namespace WebParser.Converters
+namespace WebsiteParser.Converters
 {
     /// <summary>
     /// Default regex converters. Input have to be <see cref="string"/>, output is <see cref="string"/>.

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using WebParser.Converters.Abstract;
+using WebsiteParser.Converters.Abstract;
 
-namespace WebParser.Converters
+namespace WebsiteParser.Converters
 {
     /// <summary>
     /// Default enum converter. Parses <see cref="string"/> into <see cref="T"/> enum.

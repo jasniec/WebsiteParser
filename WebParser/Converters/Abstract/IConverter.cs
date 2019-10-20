@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WebParser.Converters.Abstract
+namespace WebsiteParser.Converters.Abstract
 {
     public interface IConverter
     {

@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace WebParser.Attributes
+namespace WebsiteParser.Attributes
 {
     /// <summary>
     /// Mandatory attribute for property which you want to be parsed. It gets text or attribute's value of selected node.

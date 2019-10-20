@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using WebParser.Attributes;
+using WebsiteParser.Attributes;
 
-namespace WebParser
+namespace WebsiteParser
 {
     /// <summary>
     /// Parses html page into model class

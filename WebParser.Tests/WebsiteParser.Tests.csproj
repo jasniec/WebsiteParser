@@ -56,9 +56,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebParser\WebParser.csproj">
+    <ProjectReference Include="..\WebParser\WebsiteParser.csproj">
       <Project>{A76C2532-A433-44FE-A897-C8155721F08C}</Project>
-      <Name>WebParser</Name>
+      <Name>WebsiteParser</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

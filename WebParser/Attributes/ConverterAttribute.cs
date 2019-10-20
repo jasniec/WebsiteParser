@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using WebParser.Converters.Abstract;
+using WebsiteParser.Converters.Abstract;
 
-namespace WebParser.Attributes
+namespace WebsiteParser.Attributes
 {
     /// <summary>
     /// Converts data from above's attribute using <see cref="IConverter"/>.

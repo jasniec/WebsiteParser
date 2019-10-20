@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WebParser.Converters;
+using WebsiteParser.Converters;
 
-namespace WebParser.Tests
+namespace WebsiteParser.Tests
 {
     [TestClass]
     public class ConvertersTests

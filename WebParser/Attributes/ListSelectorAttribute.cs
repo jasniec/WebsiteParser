@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace WebParser.Attributes
+namespace WebsiteParser.Attributes
 {
     /// <summary>
     /// Declares list container. You can specify children nodes using <see cref="ChildSelector"/> property.

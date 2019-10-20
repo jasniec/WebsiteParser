@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using WebParser.Converters.Abstract;
+using WebsiteParser.Converters.Abstract;
 
-namespace WebParser.Converters
+namespace WebsiteParser.Converters
 {
     /// <summary>
     /// Default converter. It converts <see cref="string"/> into <see cref="DateTime"/>. It has additional attribute format that allows you to declare date foramt.
