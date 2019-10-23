@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using WebsiteParser.Attributes;
 using WebsiteParser.Converters;
 
 namespace WebsiteParser.Tests
@@ -29,16 +30,6 @@ namespace WebsiteParser.Tests
         }
 
         [TestMethod]
-        public void RegexTest()
-        {
-            RegexConverter rc = new RegexConverter(@"(\d{2})");
-
-            string actual = (string)rc.Convert("hello56world!");
-
-            Assert.AreEqual("56", actual);
-        }
-
-        [TestMethod]
         public void EnumTest()
         {
             EnumConverter<TestEnum> ec = new EnumConverter<TestEnum>();
@@ -47,6 +38,7 @@ namespace WebsiteParser.Tests
 
             Assert.AreEqual(TestEnum.Val2, actual);
         }
+
     }
 
     enum TestEnum

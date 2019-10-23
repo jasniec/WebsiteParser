@@ -22,7 +22,7 @@ namespace WebsiteParser.Attributes
         public string Attribute { get; set; }
         public string Selector { get; }
 
-        public string GetValue(HtmlNode node)
+        internal string GetValue(HtmlNode node)
         {
             string value;
 
