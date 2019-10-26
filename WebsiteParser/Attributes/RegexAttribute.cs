@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text.RegularExpressions;
+using WebsiteParser.Exceptions;
 
 namespace WebsiteParser.Attributes
 {
@@ -16,13 +17,12 @@ namespace WebsiteParser.Attributes
 
         readonly string _regex;
 
-        internal string Extract(string input)
+        public string Extract(string input)
         {
-
             var match = Regex.Match(input, _regex);
 
             if (!match.Success)
-                throw new Exception("Regex parse went wrong");
+                throw new RegexParseException(_regex);
 
             return match.Groups[1].Value;
         }

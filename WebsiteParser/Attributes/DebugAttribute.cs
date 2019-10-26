@@ -20,7 +20,7 @@ namespace WebsiteParser.Attributes
         /// </summary>
         public bool ShowType { get; set; } = true;
 
-        internal void LogValue(string propName, string propClass, object value)
+        public void LogValue(string propName, string propClass, object value)
         {
             StringBuilder sb = new StringBuilder();
 

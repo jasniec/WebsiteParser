@@ -1,7 +1,9 @@
 ﻿using HtmlAgilityPack;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using WebsiteParser.Exceptions;
 
 namespace WebsiteParser.Attributes
 {
@@ -22,11 +24,17 @@ namespace WebsiteParser.Attributes
         public string Attribute { get; set; }
         public string Selector { get; }
 
-        internal string GetValue(HtmlNode node)
+        public string GetValue(HtmlNode node)
         {
             string value;
 
             HtmlNode valueNode = node.QuerySelector(Selector);
+
+            if (valueNode == null)
+                throw new ElementNotFoundException($"Could not find element using: {Selector}", Selector);
+            else if (!string.IsNullOrEmpty(Attribute) && !valueNode.Attributes.Any(a => a.Name == Attribute))
+                throw new ElementNotFoundException($"Element {valueNode.Name} doesn't have attribute: {Attribute}", Selector);
+
             value = string.IsNullOrEmpty(Attribute) ? valueNode.InnerText : valueNode.Attributes[Attribute].Value;
             return value;
         }

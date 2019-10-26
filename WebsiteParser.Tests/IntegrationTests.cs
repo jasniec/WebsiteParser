@@ -13,16 +13,21 @@ using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
 namespace WebParser.Tests
 {
     [TestClass]
-    public class GeneralTests
+    public class IntegrationTests
     {
         [TestMethod]
-        public void Run()
+        public void MetalArchivesArtist()
         {
-            var result = WebContentParser.Parse<Metal>(WebsiteParser.Tests.Properties.Resources.Metal);
+            string html = WebsiteParser.Tests.Properties.Resources.Metal;
+
+            var result = WebContentParser.Parse<ArtistPart>(html);
+
+            Assert.AreEqual(Country.UnitedKingdom, result.Country);
+            Assert.AreEqual(new DateTime(2002, 7, 17, 2, 35, 24), result.AddedDate);
         }
     }
 
-    class Metal
+    class ArtistPart
     {
         [Selector(@"#band_stats dl:first-child dd:nth-child(2)")]
         [Debug]
