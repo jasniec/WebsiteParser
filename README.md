@@ -1,7 +1,7 @@
 # Website parser
 
 Website was created to make extracting data from websites easier. \
-Instead of creating methods / classes with parsing logic, you can describe way to parse website using attributes.\
+Instead of creating methods / classes with parsing logic, you can describe your properties using attributes.\
 \
 Important: Order of attributes matters.
 
