@@ -5,6 +5,13 @@ Instead of creating methods / classes with parsing logic, you can describe way t
 \
 Important: Order of attributes matters.
 
+## Nuget
+`
+PM> Install-Package WebsiteParser -Version 1.0.3
+`\
+\
+[https://www.nuget.org/packages/WebsiteParser/1.0.3](https://www.nuget.org/packages/WebsiteParser/1.0.2)
+
 ## Usage
 
 Parsing:
