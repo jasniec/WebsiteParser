@@ -54,5 +54,18 @@ namespace WebsiteParser.Tests
 
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void SelectorAttributeEmptyTest()
+        {
+            SelectorAttribute attr = new SelectorAttribute(".not-existing-class");
+            attr.NotParseWhenNotFound = true;
+
+            HtmlDocument doc = new HtmlDocument();
+            doc.LoadHtml("");
+            attr.GetContent(doc.DocumentNode, out bool canParse);
+
+            Assert.AreEqual(false, canParse);
+        }
     }
 }

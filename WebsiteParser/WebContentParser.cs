@@ -75,19 +75,22 @@ namespace WebsiteParser
                 {
                     try
                     {
-                        value = selector.GetValue(node);
+                        value = selector.GetContent(node, out bool canParse);
 
-                        foreach (var attrib in prop.GetCustomAttributes().Where(i => typeof(IParserAttribute).IsAssignableFrom(i.GetType()) || i is DebugAttribute))
+                        if (canParse)
                         {
-                            if (attrib is DebugAttribute debug)
-                                debug.LogValue(prop.Name, typeof(T).Name, value);
-                            else
-                                value = ((IParserAttribute)attrib).GetValue(value);
-                        }
+                            foreach (var attrib in prop.GetCustomAttributes().Where(i => typeof(IParserAttribute).IsAssignableFrom(i.GetType()) || i is DebugAttribute))
+                            {
+                                if (attrib is DebugAttribute debug)
+                                    debug.LogValue(prop.Name, typeof(T).Name, value);
+                                else
+                                    value = ((IParserAttribute)attrib).GetValue(value);
+                            }
 
-                        prop.SetValue(model, value);
+                            prop.SetValue(model, value);
+                        }
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         throw new ParseException(prop.Name, typeof(T).Name, ex);
                     }

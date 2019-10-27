@@ -22,18 +22,32 @@ namespace WebsiteParser.Attributes
         /// Name of attribute whose value will be gathered instead of text.
         /// </summary>
         public string Attribute { get; set; }
+        /// <summary>
+        /// Don't parse and don't throw error when selector doesn't exist. Recommended only for optional values.
+        /// </summary>
+        public bool NotParseWhenNotFound { get; set; }
         public string Selector { get; }
 
-        public string GetValue(HtmlNode node)
+        public string GetContent(HtmlNode node, out bool canParse)
         {
+            canParse = true;
             string value;
 
             HtmlNode valueNode = node.QuerySelector(Selector);
 
             if (valueNode == null)
-                throw new ElementNotFoundException($"Could not find element using: {Selector}", Selector);
+            {
+                canParse = false;
+
+                if (NotParseWhenNotFound)
+                    return null;
+                else
+                    throw new ElementNotFoundException($"Could not find element using: {Selector}", Selector);
+            }
             else if (!string.IsNullOrEmpty(Attribute) && !valueNode.Attributes.Any(a => a.Name == Attribute))
+            {
                 throw new ElementNotFoundException($"Element {valueNode.Name} doesn't have attribute: {Attribute}", Selector);
+            }
 
             value = string.IsNullOrEmpty(Attribute) ? valueNode.InnerText : valueNode.Attributes[Attribute].Value;
             return value.Trim();

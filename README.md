@@ -119,6 +119,10 @@ You can create your own parser attribute simply implementing `WebsiteParser.Attr
 Properties without this attribute won't take part of parse process. \
 Returns string \
 \
+Optional properties:
+- Attribute - when is set, Selector will extract attribute's value, not markup content
+- NotParseWhenNotFound - if true, selector pointing a not existing element will skip to another property without throwing exception
+
 Known restrictions:
 - Don't use `:nth-of-type` pseudo class
 
