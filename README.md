@@ -7,10 +7,10 @@ Important: Order of attributes matters.
 
 ## Nuget
 `
-PM> Install-Package WebsiteParser -Version 1.0.3
+PM> Install-Package WebsiteParser -Version 1.0.4
 `\
 \
-[https://www.nuget.org/packages/WebsiteParser/1.0.3](https://www.nuget.org/packages/WebsiteParser/1.0.2)
+[https://www.nuget.org/packages/WebsiteParser/1.0.4](https://www.nuget.org/packages/WebsiteParser/1.0.4)
 
 ## Usage
 
@@ -103,7 +103,17 @@ Input data:
 
 # Attributes
 
-There are a few default attributes:
+Attributes are handled in same order they was added e.g.
+```csharp
+[Selector("#addDate")]
+[Remove("Add date: ", RemoverValueType.Text)]
+[Converter(typeof(DateTimeConverter))]
+public DateTime AddDate { get; set; }
+```
+`Selector` will extract markup's text as string, `Remove` will change received string and pass it to converter, which will change string's type to DateTime.
+
+##Creating custom attribute
+You can create your own parser attribute simply implementing `WebsiteParser.Attributes.Abstract.IParserAttribute` interface. Keep in mind that input type depends on above attribute's output.
 
 ## Selector
 Properties without this attribute won't take part of parse process. \
@@ -114,12 +124,15 @@ Known restrictions:
 
 ## Regex
 It uses System.Text.RegularExpressions.Regex to extract first matched group. \
-The attribute above RegexAttribute have to returns string.\
+Returns string\
+Expecting string
 \
 I'll try to make it more flexible in the furure.
 
 ## Remove
 Depending on `RemoverValueType` enum it removes text or regex match from actual value. Provided value have to be string.
+Returns string\
+Expecting string
 
 ## Converter
 Converts value using class which implements IConverter interface.\

@@ -1,13 +1,11 @@
-﻿using HtmlAgilityPack;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System;
 using System.Text.RegularExpressions;
+using WebsiteParser.Attributes.Abstract;
 using WebsiteParser.Attributes.Enums;
 
 namespace WebsiteParser.Attributes
 {
-    public class RemoveAttribute : Attribute
+    public class RemoveAttribute : Attribute, IParserAttribute
     {
         public RemoveAttribute(string value, RemoverValueType type)
         {

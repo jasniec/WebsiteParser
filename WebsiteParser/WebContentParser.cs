@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using WebsiteParser.Attributes;
+using WebsiteParser.Attributes.Abstract;
 using WebsiteParser.Exceptions;
 
 namespace WebsiteParser
@@ -76,16 +77,12 @@ namespace WebsiteParser
                     {
                         value = selector.GetValue(node);
 
-                        foreach (var attrib in prop.GetCustomAttributes())
+                        foreach (var attrib in prop.GetCustomAttributes().Where(i => typeof(IParserAttribute).IsAssignableFrom(i.GetType()) || i is DebugAttribute))
                         {
-                            if (attrib is ConverterAttribute converter)
-                                value = converter.ConverterInstance.Convert(value);
-                            else if (attrib is RegexAttribute regex)
-                                value = regex.Extract((string)value);
-                            else if (attrib is RemoveAttribute remove)
-                                value = remove.GetValue(value);
-                            else if (attrib is DebugAttribute debug)
+                            if (attrib is DebugAttribute debug)
                                 debug.LogValue(prop.Name, typeof(T).Name, value);
+                            else
+                                value = ((IParserAttribute)attrib).GetValue(value);
                         }
 
                         prop.SetValue(model, value);

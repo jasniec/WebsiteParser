@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Text.RegularExpressions;
+using WebsiteParser.Attributes.Abstract;
 using WebsiteParser.Exceptions;
 
 namespace WebsiteParser.Attributes
@@ -8,7 +9,7 @@ namespace WebsiteParser.Attributes
     /// Extracts value of first group of regex match.
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
-    public class RegexAttribute : Attribute
+    public class RegexAttribute : Attribute, IParserAttribute
     {
         public RegexAttribute(string regex)
         {
@@ -17,9 +18,9 @@ namespace WebsiteParser.Attributes
 
         readonly string _regex;
 
-        public string Extract(string input)
+        public object GetValue(object input)
         {
-            var match = Regex.Match(input, _regex);
+            var match = Regex.Match((string)input, _regex);
 
             if (!match.Success)
                 throw new RegexParseException(_regex);

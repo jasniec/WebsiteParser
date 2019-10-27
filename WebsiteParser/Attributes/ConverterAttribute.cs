@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using WebsiteParser.Attributes.Abstract;
 using WebsiteParser.Converters.Abstract;
 
 namespace WebsiteParser.Attributes
@@ -10,7 +11,7 @@ namespace WebsiteParser.Attributes
     /// Converts data from above's attribute using <see cref="IConverter"/>.
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
-    public class ConverterAttribute : Attribute
+    public class ConverterAttribute : Attribute, IParserAttribute
     {
         public ConverterAttribute(Type converterType)
         {
@@ -23,5 +24,11 @@ namespace WebsiteParser.Attributes
         }
 
         public IConverter ConverterInstance { get; set; }
+
+        public object GetValue(object input)
+        {
+            return ConverterInstance.Convert(input);
+        }
+
     }
 }
