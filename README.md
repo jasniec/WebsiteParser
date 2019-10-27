@@ -103,7 +103,7 @@ Input data:
 
 # Attributes
 
-There are a few attributes:
+There are a few default attributes:
 
 ## Selector
 Properties without this attribute won't take part of parse process. \
@@ -117,6 +117,9 @@ It uses System.Text.RegularExpressions.Regex to extract first matched group. \
 The attribute above RegexAttribute have to returns string.\
 \
 I'll try to make it more flexible in the furure.
+
+## Remove
+Depending on `RemoverValueType` enum it removes text or regex match from actual value. Provided value have to be string.
 
 ## Converter
 Converts value using class which implements IConverter interface.\

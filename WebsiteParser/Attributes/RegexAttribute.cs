@@ -24,7 +24,7 @@ namespace WebsiteParser.Attributes
             if (!match.Success)
                 throw new RegexParseException(_regex);
 
-            return match.Groups[1].Value;
+            return match.Groups[1].Value.Trim();
         }
 
     }

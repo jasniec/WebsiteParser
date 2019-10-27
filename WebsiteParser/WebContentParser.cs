@@ -82,6 +82,8 @@ namespace WebsiteParser
                                 value = converter.ConverterInstance.Convert(value);
                             else if (attrib is RegexAttribute regex)
                                 value = regex.Extract((string)value);
+                            else if (attrib is RemoveAttribute remove)
+                                value = remove.GetValue(value);
                             else if (attrib is DebugAttribute debug)
                                 debug.LogValue(prop.Name, typeof(T).Name, value);
                         }

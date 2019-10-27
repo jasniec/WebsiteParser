@@ -10,7 +10,7 @@ using WebsiteParser.Converters;
 using WebsiteParser.Converters.Abstract;
 using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
 
-namespace WebParser.Tests
+namespace WebsiteParser.Tests
 {
     [TestClass]
     public class IntegrationTests

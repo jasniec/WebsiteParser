@@ -36,7 +36,7 @@ namespace WebsiteParser.Attributes
                 throw new ElementNotFoundException($"Element {valueNode.Name} doesn't have attribute: {Attribute}", Selector);
 
             value = string.IsNullOrEmpty(Attribute) ? valueNode.InnerText : valueNode.Attributes[Attribute].Value;
-            return value;
+            return value.Trim();
         }
     }
 }
