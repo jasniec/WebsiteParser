@@ -7,10 +7,10 @@ Important: Order of attributes matters.
 
 ## Nuget
 `
-PM> Install-Package WebsiteParser -Version 1.0.5
+PM> Install-Package WebsiteParser -Version 1.0.6
 `\
 \
-[https://www.nuget.org/packages/WebsiteParser/1.0.5](https://www.nuget.org/packages/WebsiteParser/1.0.5)
+[https://www.nuget.org/packages/WebsiteParser/1.0.6](https://www.nuget.org/packages/WebsiteParser/1.0.6)
 
 ## Usage
 
