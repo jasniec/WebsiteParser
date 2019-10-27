@@ -7,10 +7,10 @@ Important: Order of attributes matters.
 
 ## Nuget
 `
-PM> Install-Package WebsiteParser -Version 1.0.6
+PM> Install-Package WebsiteParser -Version 1.0.7
 `\
 \
-[https://www.nuget.org/packages/WebsiteParser/1.0.6](https://www.nuget.org/packages/WebsiteParser/1.0.6)
+[https://www.nuget.org/packages/WebsiteParser/1.0.7](https://www.nuget.org/packages/WebsiteParser/1.0.7)
 
 ## Usage
 
@@ -121,7 +121,8 @@ Returns string \
 \
 Optional properties:
 - Attribute - when is set, Selector will extract attribute's value, not markup content
-- NotParseWhenNotFound - if true, selector pointing a not existing element will skip to another property without throwing exception
+- NotParseWhenNotFound - if true, selector pointing a not existing element (or attribute doesn't exist) will skip to another property without throwing exception
+- EmptyValues - if a SelectorAttribute's result will be one of these, parsing this property will be skipped (similar to `NotParseWhenNotFound`)
 
 Known restrictions:
 - Don't use `:nth-of-type` pseudo class

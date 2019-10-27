@@ -26,6 +26,10 @@ namespace WebsiteParser.Attributes
         /// Don't parse and don't throw error when selector doesn't exist. Recommended only for optional values.
         /// </summary>
         public bool NotParseWhenNotFound { get; set; }
+        /// <summary>
+        /// If markup / attribute value will be one of these it will be considered as empty (skipped with no exception)
+        /// </summary>
+        public string[] EmptyValues { get; set; }
         public string Selector { get; }
 
         public string GetContent(HtmlNode node, out bool canParse)
@@ -46,11 +50,22 @@ namespace WebsiteParser.Attributes
             }
             else if (!string.IsNullOrEmpty(Attribute) && !valueNode.Attributes.Any(a => a.Name == Attribute))
             {
-                throw new ElementNotFoundException($"Element {valueNode.Name} doesn't have attribute: {Attribute}", Selector);
+                if (NotParseWhenNotFound)
+                    return null;
+                else
+                    throw new ElementNotFoundException($"Element {valueNode.Name} doesn't have attribute: {Attribute}", Selector);
             }
 
             value = string.IsNullOrEmpty(Attribute) ? valueNode.InnerText : valueNode.Attributes[Attribute].Value;
-            return value.Trim();
+            value = value.Trim();
+
+            if (EmptyValues != null && EmptyValues.Contains(value))
+            {
+                canParse = false;
+                return null;
+            }
+
+            return value;
         }
     }
 }

@@ -29,7 +29,7 @@ namespace WebsiteParser.Tests
 
     class ArtistPart
     {
-        [Selector(@"#band_stats dl:first-child dd:nth-child(2)")]
+        [Selector(@"#band_stats dl:first-child dd:nth-child(2)", EmptyValues = new string[] { "N/A" })]
         [Debug]
         [Converter(typeof(EnumDescriptionConverter<Country>))]
         [Debug]

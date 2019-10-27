@@ -67,5 +67,18 @@ namespace WebsiteParser.Tests
 
             Assert.AreEqual(false, canParse);
         }
+
+        [TestMethod]
+        public void SelectorAttributeEmptyValuesTest()
+        {
+            SelectorAttribute attr = new SelectorAttribute(".class");
+            attr.EmptyValues = new string[] { "content" };
+
+            HtmlDocument doc = new HtmlDocument();
+            doc.LoadHtml("<div class='class'>content</div>");
+            attr.GetContent(doc.DocumentNode, out bool canParse);
+
+            Assert.AreEqual(false, canParse);
+        }
     }
 }
