@@ -43,5 +43,16 @@ namespace WebsiteParser.Tests
 
             Assert.AreEqual(expected, output);
         }
+
+        [TestMethod]
+        public void FormatAttributeTest()
+        {
+            FormatAttribute attr = new FormatAttribute("pre-{0}-post");
+
+            string actual = (string)attr.GetValue("input");
+            string expected = "pre-input-post";
+
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

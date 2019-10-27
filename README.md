@@ -7,10 +7,10 @@ Important: Order of attributes matters.
 
 ## Nuget
 `
-PM> Install-Package WebsiteParser -Version 1.0.4
+PM> Install-Package WebsiteParser -Version 1.0.5
 `\
 \
-[https://www.nuget.org/packages/WebsiteParser/1.0.4](https://www.nuget.org/packages/WebsiteParser/1.0.4)
+[https://www.nuget.org/packages/WebsiteParser/1.0.5](https://www.nuget.org/packages/WebsiteParser/1.0.5)
 
 ## Usage
 
@@ -125,14 +125,19 @@ Known restrictions:
 ## Regex
 It uses System.Text.RegularExpressions.Regex to extract first matched group. \
 Returns string\
-Expecting string
+Expects string
 \
 I'll try to make it more flexible in the furure.
 
 ## Remove
 Depending on `RemoverValueType` enum it removes text or regex match from actual value. Provided value have to be string.
 Returns string\
-Expecting string
+Expects string
+
+## Format
+Uses `System.String.Format` method to allow formating text (e.g. appending text).\
+Returns string\
+Expects string
 
 ## Converter
 Converts value using class which implements IConverter interface.\
