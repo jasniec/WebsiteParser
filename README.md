@@ -1,18 +1,18 @@
 # Website parser
 
-Website was created to make extracting data from websites easier. \
-Instead of creating methods / classes with parsing logic, you can describe your properties using attributes.\
+Website was created to make web scraping / web harvesing easier. \
+Instead of creating methods / classes with extracting logic, you can describe your properties using attributes.\
 \
-Important: Order of attributes matters.
+Extracting is done mostly using CSS selectors so this library is not resistant to website changes.
 
-## Nuget
+# Nuget
 `
-PM> Install-Package WebsiteParser -Version 1.0.7
+PM> Install-Package WebsiteParser -Version 1.1.0
 `\
 \
-[https://www.nuget.org/packages/WebsiteParser/1.0.7](https://www.nuget.org/packages/WebsiteParser/1.0.7)
+[https://www.nuget.org/packages/WebsiteParser/1.1.0](https://www.nuget.org/packages/WebsiteParser/1.1.0)
 
-## Usage
+# Usage
 
 Parsing:
 ```csharp
@@ -101,55 +101,28 @@ Input data:
 </html>
 ```
 
+
+
 # Attributes
 
-Attributes are handled in same order they was added e.g.
+Attributes are handled in same order they were added e.g.
 ```csharp
 [Selector("#addDate")]
 [Remove("Add date: ", RemoverValueType.Text)]
 [Converter(typeof(DateTimeConverter))]
 public DateTime AddDate { get; set; }
 ```
-`Selector` will extract markup's text as string, `Remove` will change received string and pass it to converter, which will change string's type to DateTime.
+`Selector` will extract markup's text as string, `Remove` will change received string and pass it to `Converter`, which will change string's type to DateTime. At the end value of type DateTime will be set in the `AddDate` property.
+
+
+There are two types of attributes:
+- Start attributes, which can be only added at the beginning.
+- Parser attributes, which will modify and pass result to next attribute or set to property.
+
+Read more about attributes in [Wiki](https://github.com/jasniec/WebsiteParser/wiki)
 
 ## Creating custom attribute
 You can create your own parser attribute simply implementing `WebsiteParser.Attributes.Abstract.IParserAttribute` interface. Keep in mind that input type depends on above attribute's output.
-
-## Selector
-Properties without this attribute won't take part of parse process. \
-Returns string \
-\
-Optional properties:
-- Attribute - when is set, Selector will extract attribute's value, not markup content
-- NotParseWhenNotFound - if true, selector pointing a not existing element (or attribute doesn't exist) will skip to another property without throwing exception
-- EmptyValues - if a SelectorAttribute's result will be one of these, parsing this property will be skipped (similar to `NotParseWhenNotFound`)
-
-Known restrictions:
-- Don't use `:nth-of-type` pseudo class
-
-## Regex
-It uses System.Text.RegularExpressions.Regex to extract first matched group. \
-Returns string\
-Expects string
-\
-I'll try to make it more flexible in the furure.
-
-## Remove
-Depending on `RemoverValueType` enum it removes text or regex match from actual value. Provided value have to be string.
-Returns string\
-Expects string
-
-## Format
-Uses `System.String.Format` method to allow formating text (e.g. appending text).\
-Returns string\
-Expects string
-
-## Converter
-Converts value using class which implements IConverter interface.\
-You can create custon IConverter and provide it to ConverterAttribute.
-
-## Debug
-It displays actual value in output window.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
