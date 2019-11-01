@@ -1,14 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WebsiteParser;
-using WebsiteParser.Attributes;
-using WebsiteParser.Converters;
-using WebsiteParser.Converters.Abstract;
-using DescriptionAttribute = System.ComponentModel.DescriptionAttribute;
+using WebsiteParser.Tests.Models;
 
 namespace WebsiteParser.Tests
 {
@@ -16,59 +8,44 @@ namespace WebsiteParser.Tests
     public class IntegrationTests
     {
         [TestMethod]
-        public void MetalArchivesArtist()
+        public void WebsiteParserList()
         {
-            string html = WebsiteParser.Tests.Properties.Resources.Metal;
+            string html = WebsiteParser.Tests.Properties.Resources.SongContent;
 
-            var result = WebContentParser.Parse<ArtistPart>(html);
+            var result = WebContentParser.ParseList(typeof(SongModel), html);
 
-            Assert.AreEqual(Country.UnitedKingdom, result.Country);
-            Assert.AreEqual(new DateTime(2002, 7, 17, 2, 35, 24), result.AddedDate);
+            Assert.AreEqual(8, result.Cast<SongModel>().Count());
         }
-    }
 
-    class ArtistPart
-    {
-        [Selector(@"#band_stats dl:first-child dd:nth-child(2)", EmptyValues = new string[] { "N/A" })]
-        [Debug]
-        [Converter(typeof(EnumDescriptionConverter<Country>))]
-        [Debug]
-        public Country Country { get; set; }
-
-        [Selector(@"#auditTrail table tr:nth-child(2) td:first-child")]
-        [Regex(@"(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})")]
-        [Converter(typeof(DateTimeConverter))]
-        public DateTime AddedDate { get; set; }
-    }
-
-    enum Country
-    {
-        Default,
-        [Description("United Kingdom")]
-        UnitedKingdom
-    }
-
-    class EnumDescriptionConverter<T> : IConverter where T : Enum
-    {
-        public object Convert(object input)
+        [TestMethod]
+        public void WebsiteParserListGeneric()
         {
-            foreach (var field in typeof(T).GetFields())
-            {
-                var attribute = Attribute.GetCustomAttribute(field,
-                    typeof(DescriptionAttribute)) as DescriptionAttribute;
-                if (attribute != null)
-                {
-                    if (attribute.Description == (string)input)
-                        return field.GetValue(null);
-                }
-                else
-                {
-                    if (field.Name == (string)input)
-                        return field.GetValue(null);
-                }
-            }
+            string html = WebsiteParser.Tests.Properties.Resources.SongContent;
 
-            return null;
+            var result = WebContentParser.ParseList<SongModel>(html);
+
+            Assert.AreEqual(8, result.Count());
         }
+
+        [TestMethod]
+        public void WebsiteParserModel()
+        {
+            string html = WebsiteParser.Tests.Properties.Resources.SongContent;
+
+            AlbumModel result = (AlbumModel)WebContentParser.Parse(typeof(AlbumModel), html);
+
+            Assert.AreEqual(8, result.Songs.Count());
+        }
+
+        [TestMethod]
+        public void WebsiteParserModelGeneric()
+        {
+            string html = WebsiteParser.Tests.Properties.Resources.SongContent;
+
+            var result = WebContentParser.Parse<AlbumModel>(html);
+
+            Assert.AreEqual(8, result.Songs.Count());
+        }
+
     }
 }

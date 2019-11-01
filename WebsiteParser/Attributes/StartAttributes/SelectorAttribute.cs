@@ -3,15 +3,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using WebsiteParser.Attributes.Abstract;
 using WebsiteParser.Exceptions;
 
-namespace WebsiteParser.Attributes
+namespace WebsiteParser.Attributes.StartAttributes
 {
     /// <summary>
     /// Mandatory attribute for property which you want to be parsed. It gets text or attribute's value of selected node.
     /// </summary>
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
-    public class SelectorAttribute : Attribute
+    public class SelectorAttribute : Attribute, IStartAttribute
     {
         public SelectorAttribute(string selector)
         {
@@ -25,14 +26,14 @@ namespace WebsiteParser.Attributes
         /// <summary>
         /// Don't parse and don't throw error when selector doesn't exist. Recommended only for optional values.
         /// </summary>
-        public bool NotParseWhenNotFound { get; set; }
+        public bool SkipIfNotFound { get; set; }
         /// <summary>
         /// If markup / attribute value will be one of these it will be considered as empty (skipped with no exception)
         /// </summary>
         public string[] EmptyValues { get; set; }
         public string Selector { get; }
 
-        public string GetContent(HtmlNode node, out bool canParse)
+        public object GetValue(HtmlNode node, out bool canParse)
         {
             canParse = true;
             string value;
@@ -43,14 +44,14 @@ namespace WebsiteParser.Attributes
             {
                 canParse = false;
 
-                if (NotParseWhenNotFound)
+                if (SkipIfNotFound)
                     return null;
                 else
-                    throw new ElementNotFoundException($"Could not find element using: {Selector}", Selector);
+                    throw new ElementNotFoundException(Selector);
             }
             else if (!string.IsNullOrEmpty(Attribute) && !valueNode.Attributes.Any(a => a.Name == Attribute))
             {
-                if (NotParseWhenNotFound)
+                if (SkipIfNotFound)
                     return null;
                 else
                     throw new ElementNotFoundException($"Element {valueNode.Name} doesn't have attribute: {Attribute}", Selector);

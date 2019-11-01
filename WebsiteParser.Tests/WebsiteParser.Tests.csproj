@@ -58,6 +58,10 @@
     <Compile Include="AttributesTests.cs" />
     <Compile Include="ConvertersTests.cs" />
     <Compile Include="IntegrationTests.cs" />
+    <Compile Include="Models\AlbumModel.cs" />
+    <Compile Include="Models\Enums\Country.cs" />
+    <Compile Include="Models\MetadataModel.cs" />
+    <Compile Include="Models\SongModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>

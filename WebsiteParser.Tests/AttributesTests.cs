@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using WebsiteParser.Attributes;
 using WebsiteParser.Attributes.Enums;
+using WebsiteParser.Attributes.StartAttributes;
+using WebsiteParser.Tests.Models;
 using WebsiteParser.Tests.Properties;
 
 namespace WebsiteParser.Tests
@@ -59,11 +61,11 @@ namespace WebsiteParser.Tests
         public void SelectorAttributeEmptyTest()
         {
             SelectorAttribute attr = new SelectorAttribute(".not-existing-class");
-            attr.NotParseWhenNotFound = true;
+            attr.SkipIfNotFound = true;
 
             HtmlDocument doc = new HtmlDocument();
             doc.LoadHtml("");
-            attr.GetContent(doc.DocumentNode, out bool canParse);
+            attr.GetValue(doc.DocumentNode, out bool canParse);
 
             Assert.AreEqual(false, canParse);
         }
@@ -76,9 +78,49 @@ namespace WebsiteParser.Tests
 
             HtmlDocument doc = new HtmlDocument();
             doc.LoadHtml("<div class='class'>content</div>");
-            attr.GetContent(doc.DocumentNode, out bool canParse);
+            attr.GetValue(doc.DocumentNode, out bool canParse);
 
             Assert.AreEqual(false, canParse);
         }
+
+        [TestMethod]
+        public void WebsiteParserList()
+        {
+            WebsiteParserList wpl = new WebsiteParserList();
+            wpl.SetPropertyInfo(typeof(AlbumModel).GetProperties().First());
+
+            HtmlDocument document = new HtmlDocument();
+            document.LoadHtml(Resources.SongContent);
+
+            var result = ((IEnumerable<SongModel>)wpl.GetValue(document.DocumentNode, out bool canParse)).ToList();
+
+
+            Assert.AreEqual(true, canParse);
+            Assert.AreEqual(8, result.Count());
+        }
+
+        [TestMethod]
+        public void WebsiteParserModel()
+        {
+            WebsiteParserModel wpm = new WebsiteParserModel();
+            wpm.SetPropertyInfo(typeof(AlbumModel).GetProperties().ElementAt(1));
+
+            HtmlDocument document = new HtmlDocument();
+            document.LoadHtml(Resources.SongContent);
+
+            var result = (MetadataModel)wpm.GetValue(document.DocumentNode, out bool canParse);
+
+            var expected = new MetadataModel()
+            { 
+                LastModifiedBy = "Viral",
+                AddedBy = "Added by: (Unknown user)",
+                LastModifiedDate = new DateTime(2018, 12, 22, 1, 6, 55)
+            };
+
+
+            Assert.AreEqual(true, canParse);
+            Assert.AreEqual(expected, result);
+        }
+
     }
 }

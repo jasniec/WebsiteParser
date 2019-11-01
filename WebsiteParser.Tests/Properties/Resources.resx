@@ -1229,4 +1229,943 @@ See also:
 &lt;script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="e340cc97c08b2353635de4d0-|49" defer=""&gt;&lt;/script&gt;&lt;/body&gt;
 &lt;/html&gt;</value>
   </data>
+  <data name="SongContent" xml:space="preserve">
+    <value>&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html xmlns="http://www.w3.org/1999/xhtml"&gt;
+&lt;head&gt;
+&lt;title&gt;Black Sabbath - Paranoid - Encyclopaedia Metallum: The Metal Archives&lt;/title&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /&gt;
+&lt;script type="text/javascript" nonce="2f7c9ee359a7400f87d2f3250de" src="//local.adguard.org?ts=1572375831365&amp;amp;type=content-script&amp;amp;dmn=www.metal-archives.com&amp;amp;css=1&amp;amp;js=1&amp;amp;gcss=1&amp;amp;rel=1&amp;amp;rji=1&amp;amp;stealth=1&amp;amp;uag="&gt;&lt;/script&gt;
+&lt;script type="text/javascript" nonce="2f7c9ee359a7400f87d2f3250de" src="//local.adguard.org?ts=1572375831365&amp;amp;name=AdGuard%20Popup%20Blocker&amp;amp;name=AdGuard%20Assistant&amp;amp;name=AdGuard%20Extra&amp;amp;type=user-script"&gt;&lt;/script&gt;&lt;link rel="stylesheet" type="text/css" href="/min/index.php?g=css" /&gt;
+&lt;script type="4070f4128c6d2b483b181dad-text/javascript" src="/min/index.php?g=js"&gt;&lt;/script&gt;
+&lt;script type="4070f4128c6d2b483b181dad-text/javascript"&gt;
+			var URL_SITE	= 'https://www.metal-archives.com/';
+			var URL_IMAGES	= 'https://www.metal-archives.com/images/';
+			var URL_CSS		= 'https://www.metal-archives.com/css/';
+			var csrfToken	= '';
+
+			$(document).ready(function() {
+				toggleFixedPositioning(1280, 600);
+				executeOnAllPages();
+				
+											});
+
+
+		&lt;/script&gt;
+&lt;noscript&gt;
+			&lt;style type="text/css"&gt;
+				.no-js { display: block !important; }
+			&lt;/style&gt;
+		&lt;/noscript&gt;
+&lt;!--[if lt IE 8]&gt;
+			&lt;script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"&gt;&lt;/script&gt;
+			 &lt;link rel="stylesheet" type="text/css" href="https://www.metal-archives.com/css/default/oldie.css" /&gt;
+		&lt;![endif]--&gt;
+&lt;script type="4070f4128c6d2b483b181dad-text/javascript"&gt;
+			  var _gaq = _gaq || [];
+			  _gaq.push(['_setAccount', 'UA-4046749-4']);
+			  _gaq.push(['_trackPageview']);
+
+			  (function() {
+			    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			  })();
+		&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div id="wrapper"&gt;
+&lt;div id="header"&gt;
+&lt;a href="https://www.metal-archives.com/" id="MA_logo"&gt;Metal Archives&lt;/a&gt;
+&lt;div class="clear loading"&gt;&lt;img src="https://www.metal-archives.com/images/loading.gif" alt="loading" width="12" height="12" /&gt; loading...&lt;/div&gt;
+&lt;div id="search_box"&gt;
+&lt;form id="search_form" action="https://www.metal-archives.com/search" method="get"&gt;
+&lt;div&gt;
+&lt;label&gt;Search:&lt;/label&gt;&lt;br /&gt;
+&lt;input name="searchString" type="text" id="searchQueryBox" size="25" value="" tabindex="1" /&gt;
+&lt;select name="type" tabindex="2"&gt;
+&lt;option value="band_name"&gt;Band name&lt;/option&gt;
+&lt;option value="band_genre"&gt;Music genre&lt;/option&gt;
+&lt;option value="band_themes"&gt;Lyrical themes&lt;/option&gt;
+&lt;option value="album_title"&gt;Album title&lt;/option&gt;
+&lt;option value="song_title"&gt;Song title&lt;/option&gt;
+&lt;option value="label_name"&gt;Label&lt;/option&gt;
+&lt;option value="artist_alias"&gt;Artist&lt;/option&gt;
+&lt;option value="user_name"&gt;User profile&lt;/option&gt;
+&lt;option value="google"&gt;Google&lt;/option&gt;
+&lt;/select&gt;
+&lt;br /&gt;
+&lt;a href="https://www.metal-archives.com/search/advanced/?searchString=&amp;type=" class="float_left" tabindex="4"&gt;Advanced search&lt;/a&gt;
+&lt;button type="submit" class="btn_submit float_right" tabindex="3"&gt;Submit&lt;/button&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+&lt;div id="top_menu_box"&gt;
+&lt;ul class="menu_style_1"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/help"&gt;Help&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/rules"&gt;Rules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/board/" target="_top"&gt;Forum&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_2"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/faq"&gt;FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/support"&gt;Support Us&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/content/tools"&gt;Add-ons&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="left_col"&gt;
+&lt;div id="member_box"&gt;
+&lt;form name="login_form" id="login_form" action="https://www.metal-archives.com/authentication/login" method="post"&gt;
+&lt;div&gt;
+&lt;label&gt;Username&lt;/label&gt;&lt;br /&gt;
+&lt;input type="text" name="loginUsername" /&gt;
+&lt;label&gt;Password&lt;/label&gt;&lt;br /&gt;
+&lt;input type="password" name="loginPassword" /&gt;
+&lt;input type="hidden" name="origin" value="/albums/Black_Sabbath/Paranoid/485" /&gt;
+&lt;button type="submit" class="btn_login float_right"&gt;Login&lt;/button&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+&lt;a href="https://www.metal-archives.com/user/signup" class="float-left writeAction"&gt;Register&lt;/a&gt;
+&lt;span class="float_right"&gt;&lt;a href="https://www.metal-archives.com/user/forgot-password" class="float-left writeAction"&gt;Forgot login?&lt;/a&gt; &lt;/span&gt;
+&lt;div class="clear"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="left_menu_box"&gt;
+&lt;ul class="menu_style_3 block_spacer_20"&gt;
+&lt;li&gt;
+Bands
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/browse/letter"&gt;alphabetical&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/browse/country"&gt;country&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/browse/genre"&gt;genre&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+Labels
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/label"&gt;alphabetical&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/label/country"&gt;country&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/review/browse"&gt;Reviews&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_3 block_spacer_20"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/artist/rip"&gt;R.I.P.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/band/random"&gt;Random Band&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/user/list"&gt;User rankings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/news"&gt;News archive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class="menu_style_3 ornement_30"&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/report/list"&gt;Reports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/todo"&gt;Contribute / To do&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id="left_text_box"&gt;
+&lt;p class="small_text center"&gt; &amp;copy; 2002-2019&lt;br /&gt;Encyclopaedia Metallum &lt;/p&gt;
+&lt;p class="small_text center"&gt;Best viewed&lt;br /&gt; &lt;a href="http://www.getfirefox.com" target="_blank"&gt;without&lt;/a&gt; Internet Explorer, &lt;br /&gt;in 1280 x 960 resolution&lt;br /&gt; or higher.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;
+&lt;p class="small_text center"&gt;&lt;a href="https://www.metal-archives.com/content/pp"&gt;Privacy Policy&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id="content_wrapper"&gt;
+&lt;script type="4070f4128c6d2b483b181dad-text/javascript" src="https://www.metal-archives.com/js/jquery/jquery.form.js"&gt;&lt;/script&gt;
+&lt;script type="4070f4128c6d2b483b181dad-text/javascript"&gt;
+
+	$(document).ready(function() {
+		$(".no-js").removeClass("no-js");
+		$('#album_tabs').tabs({ beforeLoad: cacheTab }).show();
+		$('#album_members').tabs();
+		$('.albumMenu').click(toggleAlbumMenu);
+		 $('#album_members').tabs( { active : 1 } );							toggleLyrics(0);
+			});
+	
+	function hideToolMenu(event) {
+		 $('.toolMenu-content').hide();
+	}
+	
+	function makeChildVersion() {
+		var releaseId = 485;
+		var newParentId = prompt("Make a child of which album ID?");
+		
+		if(newParentId != null) {
+		
+			$('.loading').show();
+			$.post(URL_SITE + 'review/ajax-validate-move/json/1', { 'releaseId' : newParentId, "oldReleaseId": releaseId }, function(result) {
+				$('.loading').hide();
+				if(result.reviewConflict) {
+					alert("This action would cause at least two reviews by the same user to be listed for one album. This is not allowed. One of the reviews will need to be deleted first.");
+				}
+				else if(result.success) {
+					var confirmMove = confirm("Make this album (and all its own versions, if any) a version of " + result.band + " - " + result.release + "?");
+					
+					if(confirmMove) {
+						var params = { 'releaseId' : releaseId, "newParentId" : newParentId};
+						$('.loading').show();
+						$.post(URL_SITE + 'release/ajax-make-child/json/1', params, function(result) {
+							$('.loading').hide();
+							if(result.success) {
+								location.href = "https://www.metal-archives.com/albums/Black_Sabbath/Paranoid/485";
+							}
+							else {
+								alert("An error occurred: " + result.error);
+							}
+						}, 'json');
+					}
+				}
+				else {
+					alert("An error occurred: " + result.error);
+				}
+			}, 'json');			
+		}
+	}
+    
+    
+&lt;/script&gt;
+&lt;div id="album_sidebar"&gt;
+&lt;a href="https://www.metal-archives.com/bands/Black_Sabbath/99#band_tab_discography"&gt;Black Sabbath&lt;/a&gt;
+&gt; Paranoid
+
+&lt;div class="album_img"&gt;
+&lt;a class="image" id="cover" title="Black Sabbath - Paranoid" href="https://www.metal-archives.com/images/4/8/5/485.jpg?3021"&gt;&lt;img src="https://www.metal-archives.com/images/4/8/5/485.jpg?3021" title="Click to zoom" alt="Black Sabbath - Paranoid" border="0" /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div id="affiliation-links"&gt;
+&lt;span class="title"&gt;Buy from...&lt;/span&gt;
+&lt;br /&gt;
+&lt;ul id="buyLinks" class="menu_style_5"&gt;
+&lt;li&gt;
+&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=29&amp;rid=485"&gt;eBay&lt;/a&gt;
+more... &lt;a href="#more" onclick="if (!window.__cfRLUnblockHandlers) return false; $('#sub29').toggle(); return false;" data-cf-modified-4070f4128c6d2b483b181dad-=""&gt;&gt;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;ul id="sub29" style="display: none; margin-top: 0px; margin-bottom: 0px;"&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=23&amp;rid=485"&gt;eBay Canada&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=25&amp;rid=485"&gt;eBay UK&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=58&amp;rid=485"&gt;eBay Germany&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=24&amp;rid=485"&gt;eBay France&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=37&amp;rid=485"&gt;eBay Spain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=35&amp;rid=485"&gt;eBay Belgium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=26&amp;rid=485"&gt;eBay Netherlands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=27&amp;rid=485"&gt;eBay Italy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=28&amp;rid=485"&gt;eBay Australia&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=8&amp;id=1907&amp;rid=485"&gt;Amazon.com &lt;/a&gt;
+more... &lt;a href="#more" onclick="if (!window.__cfRLUnblockHandlers) return false; $('#sub8').toggle(); return false;" data-cf-modified-4070f4128c6d2b483b181dad-=""&gt;&gt;&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;ul id="sub8" style="display: none; margin-top: 0px; margin-bottom: 0px;"&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=9&amp;id=1907&amp;rid=485"&gt;Amazon UK &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=10&amp;id=1907&amp;rid=485"&gt;Amazon Canada &lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=11&amp;id=1907&amp;rid=485"&gt;Amazon France &lt;img style="text-decoration:none;border:0;padding:0;margin:0;" src="https://rover.ebay.com/roverimp/1/709-53476-19255-0/1?ff3=9&amp;pub=5574632126&amp;toolid=10001&amp;campid=5335819532&amp;customid={BAND}&amp;uq={BAND}&amp;mpt=[CACHEBUSTER]"&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" href="https://www.metal-archives.com/affiliate/?pid=12&amp;id=1907&amp;rid=485"&gt;Amazon Germany &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;table cellspacing="1" cellpadding="1" width="262" class="chronology"&gt;
+&lt;tr class="hidden"&gt;
+&lt;th class="spacer"&gt;&lt;/th&gt;
+&lt;th colspan="2"&gt;&lt;/th&gt;
+&lt;th class="spacer"&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th colspan="4"&gt;&lt;span&gt;Black Sabbath&lt;/span&gt; discography (main)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr class="prevNext"&gt;
+&lt;td class="arrows"&gt;&lt;a href="https://www.metal-archives.com/albums/Black_Sabbath/Black_Sabbath/482" title="Black Sabbath (Full-length)"&gt;&lt;&lt;/a&gt; &lt;/td&gt;
+&lt;td class="prev"&gt;
+&lt;a href="https://www.metal-archives.com/albums/Black_Sabbath/Black_Sabbath/482" title="Black Sabbath (Full-length)"&gt;Black Sabbath&lt;/a&gt;&lt;br /&gt;(1970)
+&lt;/td&gt;
+&lt;td class="next"&gt;
+&lt;a href="https://www.metal-archives.com/albums/Black_Sabbath/Master_of_Reality/487" title="Master of Reality (Full-length)"&gt;Master of Reality&lt;/a&gt;&lt;br /&gt;(1971)
+&lt;/td&gt;
+&lt;td class="arrows"&gt;&lt;a href="https://www.metal-archives.com/albums/Black_Sabbath/Master_of_Reality/487" title="Master of Reality (Full-length)"&gt;&gt;&lt;/a&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th colspan="4"&gt;&lt;span&gt;Black Sabbath&lt;/span&gt; discography (all)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;tr class="prevNext"&gt;
+&lt;td class="arrows"&gt;&lt;a href="https://www.metal-archives.com/albums/Black_Sabbath/Paranoid/5799" title="Paranoid (Single)"&gt;&lt;&lt;/a&gt; &lt;/td&gt;
+&lt;td class="prev"&gt;
+&lt;a href="https://www.metal-archives.com/albums/Black_Sabbath/Paranoid/5799" title="Paranoid (Single)"&gt;Paranoid&lt;/a&gt;&lt;br /&gt;(1970)
+&lt;/td&gt;
+&lt;td class="next"&gt;
+&lt;a href="https://www.metal-archives.com/albums/Black_Sabbath/Paranoid_EP/244801" title="Paranoid EP (EP)"&gt;Paranoid EP&lt;/a&gt;&lt;br /&gt;(1971)
+&lt;/td&gt;
+&lt;td class="arrows"&gt;&lt;a href="https://www.metal-archives.com/albums/Black_Sabbath/Paranoid_EP/244801" title="Paranoid EP (EP)"&gt;&gt;&lt;/a&gt; &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;div id="album_content"&gt;
+&lt;div class="tool_strip right"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a title="Report a mistake or additional information for this page" href="javascript:popupReportDialog(4, 485);" class="btn_report_error writeAction"&gt; &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href="https://www.metal-archives.com/bands/Black_Sabbath/99" title="Back to Black Sabbath" class="btn_back"&gt; &lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;div id="album_info"&gt;
+
+&lt;h1 class="album_name"&gt;&lt;a href="https://www.metal-archives.com/albums/Black_Sabbath/Paranoid/485"&gt;Paranoid&lt;/a&gt;&lt;/h1&gt;
+&lt;h2 class="band_name"&gt;
+&lt;a href="https://www.metal-archives.com/bands/Black_Sabbath/99"&gt;Black Sabbath&lt;/a&gt;
+&lt;/h2&gt;
+
+&lt;div class="clear block_spacer_5"&gt;&lt;/div&gt;
+&lt;div id="message"&gt; &lt;/div&gt;
+
+&lt;div class="clear block_spacer_20"&gt;&lt;/div&gt;
+&lt;dl class="float_left"&gt;
+&lt;dt&gt;Type:&lt;/dt&gt;
+&lt;dd&gt;Full-length&lt;/dd&gt;
+&lt;dt&gt;Release date:&lt;/dt&gt;
+&lt;dd&gt;September 18th, 1970&lt;/dd&gt;
+&lt;dt&gt;Catalog ID:&lt;/dt&gt;
+&lt;dd&gt;6360 011&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl class="float_right"&gt;
+&lt;dt&gt;Label:&lt;/dt&gt;
+&lt;dd&gt;&lt;a href="https://www.metal-archives.com/labels/Vertigo/28#label_tabs_albums"&gt;Vertigo&lt;/a&gt;&lt;/dd&gt;
+&lt;dt&gt;Format:&lt;/dt&gt;
+&lt;dd&gt;12" vinyl (33⅓ RPM)&lt;/dd&gt;
+&lt;dt&gt;Reviews:&lt;/dt&gt;
+&lt;dd&gt;
+30 &lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/"&gt;reviews&lt;/a&gt; (avg. 94%)
+&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;/div&gt;
+&lt;div id="album_tabs" class="clear tabs block_spacer_top_20 ui-tabs no-js"&gt;
+&lt;ul class="ui-tabs-nav"&gt;
+&lt;li&gt;&lt;a href="#album_tabs_tracklist"&gt;Songs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#album_tabs_lineup"&gt;Lineup&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/release/ajax-versions/current/485/parent/485"&gt;Other versions&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#album_tabs_reviews"&gt;Reviews&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#album_tabs_notes"&gt;Additional notes&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt;
+
+&lt;div id="album_tabs_tracklist" class="ui-tabs-hide"&gt;
+&lt;div id="album_songs" class="tabs2lvl"&gt;
+
+&lt;/div&gt;
+&lt;div class="ui-tabs-panel-content block_spacer_top_20"&gt;
+&lt;script type="4070f4128c6d2b483b181dad-text/javascript"&gt;
+function toggleLyrics(songId) {
+    var lyricsRow = $('#song' + songId);
+    lyricsRow.toggle();
+    var lyrics = $('#lyrics_' + songId);
+	if (lyrics.html() == '(loading lyrics...)') {
+    	var realId = songId;
+		if(!$.isNumeric(songId.substring(songId.length -1, songId.length))) {
+			realId = songId.substring(0, songId.length -1);
+		}
+		lyrics.load(URL_SITE + "release/ajax-view-lyrics/id/" + realId);
+    }
+    // toggle link
+    var linkLabel = "lyrics";
+    $("#lyricsButton" + songId).text(lyricsRow.css("display") == "none" ? "Show " + linkLabel : "Hide " + linkLabel);
+    return false;
+}
+
+&lt;/script&gt;
+&lt;table class="display table_lyrics" cellpadding="0" cellspacing="0"&gt;
+&lt;tbody&gt;
+&lt;tr class="sideRow"&gt;
+&lt;td colspan="4"&gt;
+Side A &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4419A" class="anchor"&gt; &lt;/a&gt;1.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+War Pigs
+&lt;/td&gt;
+&lt;td align="right"&gt;07:55&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4419A" href="#4419A" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4419A'); return false;" data-cf-modified-4070f4128c6d2b483b181dad-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4419A" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4419A"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td width="20"&gt;&lt;a name="4420A" class="anchor"&gt; &lt;/a&gt;2.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Paranoid
+&lt;/td&gt;
+&lt;td align="right"&gt;02:50&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4420A" href="#4420A" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4420A'); return false;" data-cf-modified-4070f4128c6d2b483b181dad-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4420A" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4420A"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4421A" class="anchor"&gt; &lt;/a&gt;3.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Planet Caravan
+&lt;/td&gt;
+&lt;td align="right"&gt;04:30&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4421A" href="#4421A" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4421A'); return false;" data-cf-modified-4070f4128c6d2b483b181dad-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4421A" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4421A"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td width="20"&gt;&lt;a name="4422A" class="anchor"&gt; &lt;/a&gt;4.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Iron Man
+&lt;/td&gt;
+&lt;td align="right"&gt;06:00&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4422A" href="#4422A" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4422A'); return false;" data-cf-modified-4070f4128c6d2b483b181dad-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4422A" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4422A"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="sideRow"&gt;
+&lt;td colspan="4"&gt;
+Side B &lt;/td&gt;
+ &lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4423B" class="anchor"&gt; &lt;/a&gt;5.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Electric Funeral
+&lt;/td&gt;
+&lt;td align="right"&gt;04:50&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4423B" href="#4423B" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4423B'); return false;" data-cf-modified-4070f4128c6d2b483b181dad-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4423B" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4423B"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td width="20"&gt;&lt;a name="4424B" class="anchor"&gt; &lt;/a&gt;6.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Hand of Doom
+&lt;/td&gt;
+&lt;td align="right"&gt;07:10&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4424B" href="#4424B" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4424B'); return false;" data-cf-modified-4070f4128c6d2b483b181dad-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4424B" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4424B"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td width="20"&gt;&lt;a name="4425B" class="anchor"&gt; &lt;/a&gt;7.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Rat Salad
+&lt;/td&gt;
+&lt;td align="right"&gt;02:30&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;em&gt;instrumental&lt;/em&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4425B" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4425B"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td width="20"&gt;&lt;a name="4426B" class="anchor"&gt; &lt;/a&gt;8.&lt;/td&gt;
+&lt;td class="wrapWords"&gt;
+Fairies Wear Boots
+&lt;/td&gt;
+&lt;td align="right"&gt;06:15&lt;/td&gt;
+&lt;td nowrap="nowrap"&gt;&amp;nbsp;
+&lt;a id="lyricsButton4426B" href="#4426B" onclick="if (!window.__cfRLUnblockHandlers) return false; toggleLyrics('4426B'); return false;" data-cf-modified-4070f4128c6d2b483b181dad-=""&gt;Show lyrics&lt;/a&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr id="song4426B" class="displayNone" height="0"&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td colspan="3" id="lyrics_4426B"&gt;(loading lyrics...)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td colspan="2"&gt;&amp;nbsp;&lt;/td&gt;
+&lt;td align="right"&gt;&lt;strong&gt;42:00&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;&amp;nbsp;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div id="album_tabs_lineup"&gt;
+&lt;div id="album_members" class="tabs2lvl"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#album_all_members_lineup"&gt;Complete lineup&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#album_members_lineup"&gt;Band members&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#album_members_guest"&gt;Guest/session musicians&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href="#album_members_misc"&gt;Other staff&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt;
+
+&lt;div id="album_all_members_lineup"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupHeaders"&gt;
+&lt;td colspan="2" align="right"&gt;
+Band members
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ozzy_Osbourne/2073"&gt;Ozzy Osbourne&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals, Lyrics (track 8) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tony_Iommi/2190"&gt;Tony Iommi&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Guitars &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Geezer_Butler/2225"&gt;Geezer Butler&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass, Lyrics (tracks 1-6, 8) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bill_Ward/2239"&gt;Bill Ward&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupHeaders"&gt;
+&lt;td colspan="2" align="right"&gt;
+Guest/Session
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tom_%22Colonel%22_Allom/69503"&gt;Tom &amp;quot;Colonel&amp;quot; Allom&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Piano (track 3) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupHeaders"&gt;
+&lt;td colspan="2" align="right"&gt;
+Miscellaneous staff
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Brian_Humphries/69534"&gt;Brian Humphries&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Engineering &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Marcus_Keef/178410"&gt;Keef&lt;/a&gt;
+(R.I.P. 2012) &lt;/td&gt;
+&lt;td&gt;
+Design, Photography &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Rodger_Bain/55429"&gt;Rodger Bain&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Producer &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tom_%22Colonel%22_Allom/69503"&gt;Tony Allom&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Engineering &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="album_members_lineup"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Ozzy_Osbourne/2073"&gt;Ozzy Osbourne&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Vocals, Lyrics (track 8) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tony_Iommi/2190"&gt;Tony Iommi&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Guitars &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Geezer_Butler/2225"&gt;Geezer Butler&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Bass, Lyrics (tracks 1-6, 8) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Bill_Ward/2239"&gt;Bill Ward&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Drums &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="album_members_guest"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tom_%22Colonel%22_Allom/69503"&gt;Tom &amp;quot;Colonel&amp;quot; Allom&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Piano (track 3) &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+ 
+&lt;div id="album_members_misc"&gt;
+&lt;div class="ui-tabs-panel-content"&gt;
+&lt;table class="display lineupTable" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Brian_Humphries/69534"&gt;Brian Humphries&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Engineering &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Marcus_Keef/178410"&gt;Keef&lt;/a&gt;
+(R.I.P. 2012) &lt;/td&gt;
+&lt;td&gt;
+Design, Photography &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Rodger_Bain/55429"&gt;Rodger Bain&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Producer &lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="lineupRow"&gt;
+&lt;td width="300" valign="top"&gt;
+&lt;a href="https://www.metal-archives.com/artists/Tom_%22Colonel%22_Allom/69503"&gt;Tony Allom&lt;/a&gt;
+&lt;/td&gt;
+&lt;td&gt;
+Engineering &lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+
+&lt;div id="album_tabs_reviews" class="ui-tabs-hide"&gt;
+&lt;div id="album_reviews" class="tabs2lvl"&gt;
+&lt;div class="tool_strip top right writeAction"&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.metal-archives.com/review/write/releaseId/485" class="btn_add"&gt;Add&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="ui-tabs-panel-content block_spacer_top_36"&gt;
+&lt;table id="review_list" class="display" cellpadding="0" cellspacing="0"&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Superchard/266611" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Black Sabbath's Career...&lt;/td&gt;
+&lt;td&gt;93%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Superchard" class="profileMenu"&gt;Superchard&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;April 3rd, 2018&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/RedRedSuit/393898" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;crisp, tight, angry, heavy,...&lt;/td&gt;
+&lt;td&gt;95%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/RedRedSuit" class="profileMenu"&gt;RedRedSuit&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;September 22nd, 2017&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/TheKilla/411917" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The Greatest Metal Album...&lt;/td&gt;
+&lt;td&gt;99%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/TheKilla" class="profileMenu"&gt;TheKilla&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;July 6th, 2017&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/drummingnerd99/381902" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The album that changed my life&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/drummingnerd99" class="profileMenu"&gt;drummingnerd99&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;March 26th, 2017&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/TrooperEd/21802" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;See kids? You don't have...&lt;/td&gt;
+&lt;td&gt;93%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/TrooperEd" class="profileMenu"&gt;TrooperEd&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;February 11th, 2017&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Face_your_fear_79/343812" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Beyond heavy.&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Face_your_fear_79" class="profileMenu"&gt;Face_your_fear_79&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;October 16th, 2015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Cosmic_Equilibrium/339629" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Refinement&lt;/td&gt;
+&lt;td&gt;92%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Cosmic_Equilibrium" class="profileMenu"&gt;Cosmic_Equilibrium&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;August 7th, 2015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Brainded_Binky/324452" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Generals gathered in their...&lt;/td&gt;
+&lt;td&gt;99%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Brainded%20Binky" class="profileMenu"&gt;Brainded Binky&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;February 18th, 2015&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Superreallycool/344633" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A real icon of metal&lt;/td&gt;
+&lt;td&gt;90%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Superreallycool" class="profileMenu"&gt;Superreallycool&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;October 7th, 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Doominance/324307" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A bit less blues in...&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Doominance" class="profileMenu"&gt;Doominance&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;October 5th, 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/psychoticnicholai/310306" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Paranoia and the Original Doom&lt;/td&gt;
+&lt;td&gt;93%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/psychoticnicholai" class="profileMenu"&gt;psychoticnicholai&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;July 3rd, 2014&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/MetalPwnsAll/282245" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A TRUE Classic&lt;/td&gt;
+&lt;td&gt;95%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/MetalPwnsAll" class="profileMenu"&gt;MetalPwnsAll&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;January 13th, 2013&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/SirMetalGinger/300053" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Solidified my metalhead...&lt;/td&gt;
+&lt;td&gt;91%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/SirMetalGinger" class="profileMenu"&gt;SirMetalGinger&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;October 27th, 2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/ConorFynes/227178" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Black Sabbath - Paranoid&lt;/td&gt;
+&lt;td&gt;90%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/ConorFynes" class="profileMenu"&gt;ConorFynes&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;May 28th, 2012&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Goldblaze/221624" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Simply one of the finest...&lt;/td&gt;
+&lt;td&gt;94%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Goldblaze" class="profileMenu"&gt;Goldblaze&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;September 26th, 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Slasher666/225978" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Rat Salad Tastes Good!&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Slasher666" class="profileMenu"&gt;Slasher666&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;August 31st, 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Warthur/261974" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;They couldn't really do...&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Warthur" class="profileMenu"&gt;Warthur&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;June 17th, 2011&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Five_Nails/135946" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;My First Heavy Metal Album&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Five_Nails" class="profileMenu"&gt;Five_Nails&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;July 28th, 2009&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Nhorf/93199" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;HAIL THE GODS&lt;/td&gt;
+&lt;td&gt;88%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Nhorf" class="profileMenu"&gt;Nhorf&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;May 25th, 2008&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/erickg13/74528" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Sabbath's Definitive Work.&lt;/td&gt;
+&lt;td&gt;97%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/erickg13" class="profileMenu"&gt;erickg13&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;May 9th, 2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Satanwolf/94611" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The ultimate metal album!&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Satanwolf" class="profileMenu"&gt;Satanwolf&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;May 7th, 2007&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Mungo/57422" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A Masterpiece of Heavy Music&lt;/td&gt;
+&lt;td&gt;97%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Mungo" class="profileMenu"&gt;Mungo&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;November 2nd, 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/hells_unicorn/29518" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Heavy Metal, 2nd Draft.&lt;/td&gt;
+&lt;td&gt;92%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/hells_unicorn" class="profileMenu"&gt;hells_unicorn&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;October 29th, 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/brocashelm/39668" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The Old Warhorse Deserves...&lt;/td&gt;
+&lt;td&gt;90%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/brocashelm" class="profileMenu"&gt;brocashelm&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;April 21st, 2006&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Reaper/8361" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The Bible of Metal&lt;/td&gt;
+&lt;td&gt;93%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Reaper" class="profileMenu"&gt;Reaper&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;August 11th, 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/westknife/12363" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;...Oh Lord Yeah!&lt;/td&gt;
+&lt;td&gt;100%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/westknife" class="profileMenu"&gt;westknife&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;July 26th, 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/OlympicSharpshooter/5599" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The greatest metal album....&lt;/td&gt;
+&lt;td&gt;85%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/OlympicSharpshooter" class="profileMenu"&gt;OlympicSharpshooter&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;March 16th, 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/radiohater/2201" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;The second coming&lt;/td&gt;
+&lt;td&gt;96%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/radiohater" class="profileMenu"&gt;radiohater&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;January 16th, 2004&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="even"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/UltraBoris/147" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Decent and of course...&lt;/td&gt;
+&lt;td&gt;72%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/UltraBoris" class="profileMenu"&gt;UltraBoris&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;December 24th, 2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class="odd"&gt;
+&lt;td nowrap="nowrap"&gt;&lt;a href="https://www.metal-archives.com/reviews/Black_Sabbath/Paranoid/485/Nightcrawler/326" title="Read" class="iconContainer ui-state-default ui-corner-all"&gt;&lt;span class="ui-icon ui-icon-search"&gt;Read&lt;/span&gt;&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;A legendary release.&lt;/td&gt;
+&lt;td&gt;75%&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://www.metal-archives.com/users/Nightcrawler" class="profileMenu"&gt;Nightcrawler&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;November 9th, 2002&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div id="album_tabs_notes" class="ui-tabs-hide"&gt;
+&lt;div id="album_notes" class="tabs2lvl"&gt;&lt;/div&gt;
+&lt;div class="ui-tabs-panel-content  block_spacer_top_20"&gt;
+&lt;p class="block_spacer_20"&gt;Issued in a gatefold sleeve.&lt;br /&gt;
+&lt;br /&gt;
+The album was originally supposed to be titled &lt;i&gt;War Pigs&lt;/i&gt; and the cover art was designed with that title in mind, but the record company objected (presumably due to the Vietnam War), so it was re-titled &lt;i&gt;Paranoid&lt;/i&gt;. &lt;br /&gt;
+&lt;br /&gt;
+"Paranoid" was the last song composed and recorded for the album at the behest of the producer, who thought they needed an extra track. &lt;br /&gt;
+&lt;br /&gt;
+According to popular belief, the name for doom metal came from the song "Hand of Doom". &lt;br /&gt;
+&lt;br /&gt;
+"Fairies Wear Boots" was inspired by a time when Ozzy and Geezer were hassled by skinheads, thus an insult to the boot-wearing "fairy" skinheads. &lt;br /&gt;
+&lt;br /&gt;
+"Iron Man" is based on a fictional character thought up by Ozzy and Geezer, not the Marvel comics hero of the same name. &lt;br /&gt;
+&lt;br /&gt;
+On the North American edition of the album, the songs "War Pigs" and "Fairies Wear Boots" were titled "War Pigs/Luke's Wall" and "Jack The Stripper/Fairies Wear Boots", respectively.&lt;br /&gt;
+&lt;br /&gt;
+A &lt;i&gt;Classic Albums&lt;/i&gt; documentary has been made for &lt;i&gt;Paranoid&lt;/i&gt;, chronicling its inception, recording process, and legacy.&lt;/p&gt;
+&lt;p class="title_comment"&gt;Recording information:&lt;/p&gt;
+&lt;p class="block_spacer_20"&gt;Recorded at Regent Sound and Island Studios. &lt;br /&gt;
+All songs by Osbourne, Iommi, Butler and Ward.&lt;/p&gt;
+&lt;p class="title_comment"&gt;Identifiers:&lt;/p&gt;
+&lt;p&gt;Matrix / Runout (Side A Variant 1): 6360011 1Y//1 420 1 2 1&lt;br /&gt;
+Matrix / Runout (Side B Variant 1): 6360011 2Y//1 420 1 1 5&lt;br /&gt;
+Matrix / Runout (Side A Variant 2): 6360011 1Y//2 420 1 2 4&lt;br /&gt;
+Matrix / Runout (Side B Variant 2): 6360011 2Y//2 420 1 1 1&lt;br /&gt;
+Matrix / Runout (Side A Variant 3): 6360011 1Y//▽420 12 12&lt;br /&gt;
+Matrix / Runout (Side B Variant 3): 6360011 2Y//▽420 11 17&lt;br /&gt;
+Matrix / Runout (Side A Variant 4): 6360011 1Y//▽420 12 7&lt;br /&gt;
+Matrix / Runout (Side B Variant 4): 6360011 2Y//▽420 12 19&lt;br /&gt;
+Matrix / Runout (Side A Variant 5): 6360011 1Y//2▽420 12 10&lt;br /&gt;
+Matrix / Runout (Side B Variant 5): 6360011 2Y//1▽420 11 33&lt;br /&gt;
+Matrix / Runout (Side A Variant 6): 6360011 1Y//▽420 15 17&lt;br /&gt;
+Matrix / Runout (Side B Variant 6): 6360011 2Y//▽420 11 27&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div id="auditTrail"&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td&gt;Added by: (Unknown user)&lt;/td&gt;
+&lt;td align="right"&gt;Modified by: &lt;a href="https://www.metal-archives.com/users/Viral" class="profileMenu"&gt;Viral&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Added on: N/A&lt;/td&gt;
+&lt;td align="right"&gt;Last modified on: 2018-12-22 01:06:55&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td valign="top"&gt;
+&amp;nbsp;
+&lt;/td&gt;
+&lt;td align="right" valign="top"&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="4070f4128c6d2b483b181dad-|49" defer=""&gt;&lt;/script&gt;&lt;/body&gt;
+&lt;/html&gt;</value>
+  </data>
 </root>
