@@ -7,10 +7,14 @@ Extracting is done mostly using CSS selectors so this library is not resistant t
 
 # Nuget
 `
-PM> Install-Package WebsiteParser -Version 1.1.0
+PM> Install-Package WebsiteParser -Version 1.1.1
 `\
 \
-[https://www.nuget.org/packages/WebsiteParser/1.1.0](https://www.nuget.org/packages/WebsiteParser/1.1.0)
+[https://www.nuget.org/packages/WebsiteParser/1.1.1](https://www.nuget.org/packages/WebsiteParser/1.1.1)
+
+## Patch notes 1.1.1
+
+- Added [CompareValueAttribute](https://github.com/jasniec/WebsiteParser/wiki/CompareValueAttribute)
 
 # Usage
 
