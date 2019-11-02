@@ -3,8 +3,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WebsiteParser.Attributes;
 using WebsiteParser.Attributes.Enums;
 using WebsiteParser.Attributes.StartAttributes;
@@ -120,6 +118,26 @@ namespace WebsiteParser.Tests
 
             Assert.AreEqual(true, canParse);
             Assert.AreEqual(expected, result);
+        }
+
+        [TestMethod]
+        public void CompareValueAttributeTest()
+        {
+            CompareValueAttribute cva = new CompareValueAttribute("expected value", true);
+
+            bool result = (bool)cva.GetValue("expected value");
+
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void CompareValueAttributeNegativeTest()
+        {
+            CompareValueAttribute cva = new CompareValueAttribute("expected value", true);
+
+            bool result = (bool)cva.GetValue("not expected value");
+
+            Assert.IsFalse(result);
         }
 
     }

@@ -1,8 +1,6 @@
 ﻿using HtmlAgilityPack;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using WebsiteParser.Attributes.Abstract;
 using WebsiteParser.Exceptions;
 

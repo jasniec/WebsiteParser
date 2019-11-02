@@ -10,6 +10,7 @@ namespace WebsiteParser.Attributes.StartAttributes
     /// <summary>
     /// Parses fragment of current page into current property using another parsing class
     /// </summary>
+    [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
     public class WebsiteParserModel : PropertyAwareAttribute, IStartAttribute
     {
         /// <summary>

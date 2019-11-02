@@ -12,6 +12,7 @@ namespace WebsiteParser.Attributes.StartAttributes
     /// <summary>
     /// Parses fragment of current page into current property as <see cref="System.Collections.IEnumerable"/> using another parsing class
     /// </summary>
+    [AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
     public class WebsiteParserList : PropertyAwareAttribute, IStartAttribute
     {
         /// <summary>

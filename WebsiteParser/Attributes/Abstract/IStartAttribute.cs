@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WebsiteParser.Attributes.Abstract
 {
-    interface IStartAttribute
+    public interface IStartAttribute
     {
         object GetValue(HtmlNode rootNode, out bool canParse);
     }
