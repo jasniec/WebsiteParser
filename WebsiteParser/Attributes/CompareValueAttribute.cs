@@ -8,7 +8,7 @@ namespace WebsiteParser.Attributes
     /// <summary>
     /// Compares if received value equals (or not) expected value
     /// </summary>
-    public class CompareValueAttribute : IParserAttribute
+    public class CompareValueAttribute : Attribute, IParserAttribute
     {
         /// <summary>
         /// Default constructor of CompareValueAttribute
