@@ -12,6 +12,7 @@ namespace WebsiteParser.Tests.Models
     class SongModel
     {
         [Selector(".wrapWords")]
+        [Debug]
         public string Name { get; set; }
     }
 }
